@@ -5,6 +5,29 @@ ol {
     padding: 0;
 }
 
+.button-back,
+.link-page {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+
+.home-page {
+    margin-top: 50px;
+    margin-left: 70px;
+    gap: 26px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.button-back:hover,
+.link-page:hover {
+    color: rgb(47, 47, 215);
+}
+
+
 /*==========Gallery=============*/
 .gallery {
     list-style: none;
@@ -38,27 +61,6 @@ ol {
     transform: scale(1.05);
 }
 
-.button-back,
-.link-page {
-    text-decoration: none;
-    color: black;
-    font-size: 180%;
-}
-
-.home-page {
-    margin-top: 50px;
-    margin-left: 70px;
-    gap: 26px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-
-}
-
-.button-back:hover,
-.link-page:hover {
-    color: rgb(47, 47, 215);
-}
 
 
 
